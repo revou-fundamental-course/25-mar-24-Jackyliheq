@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>BMI Test</title>
+
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <h2>Kalkulator BMI</h2>
+        <p>Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang<br>
+            penampilan, berat badan idela juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu?<br>
+            Yuk, hitung sekarang di kalkulator BMI.</p>
+            <hr>
+
+            <div>
+                <h4>Jenis Kelamin</h4>
+
+                <input type="radio"id="m"><p>Pria</p>
+                <input type="radio" id="fm"><p>Wanita</p>
+
+                <h4>Berat Badan (kg)</h4>
+                <input type="number" id="bb" required>
+            
+                <h4>Umur (Tahun)</h4>
+                <input type="number" id="umur" required>
+
+                <h4>Tinggi Badan (cm)</h4>
+                <input type="number" id="tb" required>
+
+                <br>
+                <button style="background-color: lightblue; border: 1px solid;" onclick='hitungbmi()'>Hitung BMI</button>
+                <button onclick='reload()'>Reset</button>
+            </div>
+
+            <br>
+
+            <p style="font-size: 120%;">Keunggulan fitur</p>
+            <ol>
+                <li>Menghitung berat badan</li>
+                <li>Menentukan kategori berat badan ideal atau tidak</li>
+                <li>Mempersiapkan program penurunan badan</li>
+            </ol>
+
+            <hr>
+
+            <h4 id='head' ></h4>
+            <p id='bmi-output'></p>
+            <p id='message'></p>
+
+
+            <script src="js/bmicount.js"></script>
+                <!-- masih kurang ngerti bagian sini haha-->
+
+            
+    </body>
+</html>

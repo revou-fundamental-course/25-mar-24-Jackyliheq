@@ -1,0 +1,35 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+p {
+    display: inline;
+    margin-right: 10px;
+}
+
+div {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+h4#head{
+    text-align: center;
+}
+
+p#bmi-output {
+    text-align: center;
+    display: block;
+}
+
+p#message {
+    text-align: center;
+    display: block;
+}
+/* untuk css nya saya buat simple karna blum begitu paham untuk membuat display bagus
+    saya berusaha agar tidak banyak menyontek dari google untuk bagian css dan membuat nya sesuai yang saya lihat dari penugasan yang diberikan */
+    
